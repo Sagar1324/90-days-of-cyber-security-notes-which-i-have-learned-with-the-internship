@@ -1,15 +1,22 @@
 
 # DAY-1:
-# Introduction to cyber security:
-# Cyber security: 
-Cybersecurity is the practice of protecting systems, networks, and programs from digital attacks. These cyberattacks are usually aimed at accessing, changing, or destroying sensitive information.
-# Types of cyber security:
+* # Introduction to cybersecurity:
+* Cybersecurity is the practice of protecting systems, networks, and programs from digital attacks. These cyberattacks are usually aimed at accessing, changing, or destroying sensitive informat
+* Cybersecurity, also known as computer security, digital security, or information technology (IT) security, is the use of technologies and practices to protect devices, networks, and data from unauthorized access, theft, damage, or criminal use. It also ensures the confidentiality, integrity, and availability of information. 
+* Cybersecurity is important because more and more of our lives are online, and data is the foundation of many organizations. If data is exploited, there are many risks, such as unauthorized information disclosure, disruption of services, and damage to hardware, software, or data. 
+* Cybersecurity is used by individuals and organizations to prevent illegal access to computer systems and data centers. It's essential for many types of organizations, including hospitals, large corporations, small businesses, and the military. 
+* The global cyber threat is constantly evolving, and the number of data breaches continues to increase each year. For example, in 2019, 7.9 billion records were exposed by data breaches in the first nine months, which was more than double the number exposed in the same period in 2018. 
+
+# Types of cyber security Threats:
 # 1.Phishing:
-A technique for attempting to acquire sensitive data, such as bank account numbers, through a fraudulent solicitation in email or on a web site, in which the perpetrator masquerades as a legitimate business or reputable person.
+Phishing is a type of online scam that involves sending fraudulent messages that appear to come from a legitimate source, such as an email, text message, or phone call. The goal of phishing is to trick people into giving away sensitive information, such as login credentials, money, or personally identifiable information (PII). The attacker may also try to install malware on the victim's device. 
+
 # 2.Ransomware:
-Ransomware is a type of malicious software (malware) that threatens to publish or blocks access to data or a computer system, usually by encrypting it, until the victim pays a ransom fee to the attacker.
+Ransomware is a type of malware that prevents a victim from accessing their device or data by encrypting it and demanding a ransom in exchange for decryption. Ransomware can infect a variety of devices, including computers, smartphones, and point-of-sale terminals. 
+
 # 3.Malware:
-Malware refers to any intrusive software developed by cybercriminals to steal data and damage or destroy computers and computer systems.
+Malware, short for malicious software, is a term for any software that's designed to infiltrate a device without the user's knowledge and cause damage or disruption to the system, or steal data. Cybercriminals, also known as hackers, often develop malware to achieve these goals
+
 # 4.Social engineering:
 Social engineering is the term used for a broad range of malicious activities accomplished through human interactions. It uses psychological manipulation to trick users into making security mistakes or giving away sensitive information.
 # 5.Man in the middle attack:
