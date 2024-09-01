@@ -16,16 +16,37 @@ Inverse Address Resolution Protocol uses MAC Address to find the IP Address, it 
 
 * It broadcast a packet to all the devices of the source network. The devices of the network peel the header of the data link layer from the Protocol Data Unit (PDU) called frame and transfer the packet to the network layer (layer 3 of OSI) where the network ID of the packet is validated with the destination IP’s network ID of the packet and if it’s equal then it responds to the source with the MAC address of the destination, else the packet reaches the gateway of the network and broadcasts packet to the devices it is connected with and validates their network ID. The above process continues till the second last network device in the path reaches the destination where it gets validated and ARP, in turn, responds with the destination MAC address.
 
-# Types of ARP:
+# enumeration:
 
-1. Proxy ARP
-A Layer 3 device can reply to an ARP request for a target that is on a different network than the sender by using a technique called proxy ARP. In response to the ARP, the router that has been set for Proxy ARP maps its MAC address to the target IP address, deceiving the sender into believing that the message has arrived at destination.Because the packets have the required information, the proxy router at the backend forwards them to the correct location.
+In cybersecurity, enumeration is the process of gathering information about a network or system to identify vulnerabilities and potential threats
 
-2. Gratuitous ARP
-The host’s ARP request known as “gratuitous ARP” aids in locating duplicate IP addresses. This is a broadcast request for the router’s IP address. All other nodes are unable to use the IP address assigned to a switch or router in the event that it sends out an ARP request to obtain its IP address and receives no ARP answers in return. However, another node uses the IP address assigned to the switch or router if it sends an ARP request for its IP address and gets an ARP response.
+*  working:
 
-3. Reverse ARP
-In a local area network (LAN), the client system uses this networking protocol to ask the ARP gateway router table for its IPv4 address. The network administrator creates a table in the gateway-router that is used to correlate the IP address with the MAC address.
+A hacker establishes a connection to the target system and performs queries to extract information such as usernames, IP addresses, and network resources. 
 
-4. Inverse ARP
-The purpose of inverse ARP, which is the opposite of ARP, is to deduce the nodes’ IP addresses from their data link layer addresses. Frame relays and ATM networks, where Layer 2 virtual circuit addressing is frequently obtained from Layer 2 signalling, are the primary applications for them. These virtual circuits can be used with the necessary Layer 3 addresses accessible.
+ * importance:
+
+Enumeration is a key part of the ethical hacking process and helps identify weak points in a system's security. Attackers can then exploit these vulnerabilities to gain unauthorized access to resources, steal data, or cause damage. 
+
+* Techniques:
+
+Enumeration can be performed using tools such as telnet, Nmap, and smtp-user-enum. 
+
+# exploitation:
+
+In cybersecurity, exploitation is the use of a vulnerability in a computer system or application to gain access to confidential data or perform malicious actions. The method or code used to exploit a vulnerability is called an exploit. 
+
+# Maintaining Access :
+
+Maintaining Access is the 4th phase in the ethical hacking process. In this phase, the hacker installs software or makes changes to the target machine to access the target later in time. This allows the hacker to stay connected with the target machine, thus cutting the need of starting the process from scratch for the same target. This phase is also called persistence in the target system.
+
+# clearing tracks:
+
+Clearing tracks is the final phase of a successful hacking attack, where the attacker removes evidence of their actions to avoid being caught
+
+* Removing logs: Attackers remove or manipulate logs that may contain records of their activities. 
+* Cleaning the registry: Attackers remove or alter registry entries related to their activities. 
+* Using anti-forensic techniques: Attackers use anti-forensic tools or encryption to make it harder for investigators to reconstruct events. 
+
+
+
