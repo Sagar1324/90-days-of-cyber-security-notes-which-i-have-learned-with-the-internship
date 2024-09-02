@@ -47,10 +47,12 @@ https://machineip/content/inc/ads/
 
 * Now we need to check what the copy.sh file exactly has, Hahaa after opening the file we can able to see that there is reverse shell code is there which the machine creator has made so what we are going to do there is simply changing existing IP to our IP
 
-* y the file has executing permissions for all the users, So lets start our Netcat listener to get a root shell connection
+* y the file has executing permissions for all the users, So lets start our Netcat listener to get a root shell connection.
 
 * Now we are going to run the backup.pl file with the sudo permissions
 
 * By running that file using sudo permission we have successfully got a reverse shell form the root user.
 
 * Now its time take a root flag and again I will not show that flag here you can view it by cat command
+
+![Untitled design](https://github.com/user-attachments/assets/1c185cdb-214e-4566-889a-23b6942588aa)
